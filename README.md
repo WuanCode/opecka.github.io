@@ -32,6 +32,7 @@ Windows 10/11
 - Podivat se do VMWare app a tam Edit > Virtual network editor
 - Zjistit Subnet IP, Subnet mask (zustava stejně 255.255.255.0), Gateway IP
 - do Serveru nastavit IP adresu, Subnet Mask, Default Gateway, Preferred DNS Server (stejně jako gateway)
+
 DHCP Server
 - add roles DHCP Server
 - dokončit nastavení
