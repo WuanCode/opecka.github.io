@@ -1,5 +1,8 @@
 # opecka.github.io
 # VM WARE vms stroje (NASTAVENÍ)
+Virtual Network Editor
+- odšktrnout Use Local DHCP service to distribute IP address to VMs
+
 Windows Server 2022 
 - novy virtualni stroj
 - (typical)
@@ -25,6 +28,8 @@ Windows 10/11
 - OS: Microsoft Windows
 - version: Windows 10/11 x64
 - hardware settings stejně
+- Windows 11/10 Education
+- 
 
 # Windows Server 2022 (Settings)
 - Domain name změnit !! --> Restart now
