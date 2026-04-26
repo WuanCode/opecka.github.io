@@ -56,8 +56,35 @@ DNS Server
 - přidat DNS adresu do "006 DNS Servers" (primární=adresa serveru, alternativní=školní/1.1.1.1)
 - vypnout a zapnout síť na linuxu a windows 11/10 a ověřit zda je všechno správně (např. prohlížeče)
 
-
-
-  
+ADDS
+- add roles ADDS
+- add new forest 
+- doplnit název
+- nastavit heslo při prihlášení do domény
+- po instalaci je hned RESTART
+- DHCP manager autorizace, aby fungovalo Scope
+- do síťového adapteru na Windows Serveru změnit DNS adresy (primární=adresa dns, alternativní=školní/1.1.1.1)
+- ADUC (Active Directory Users and Computers)
+- nahoře tools > ADUC
+- pravým klikneme na naše doméno
+- new > organizational unit > přidat název
+- přidat Usera
+- GPM (Group Policy Management)
+- Domains > náš server > náš organizational unit
+- přidat GPO (Grou Policy Object)
+- pravým Edit
+- v User configuration si můžeme vypnout/zapnout prává uživatele na stroji
+- DNS manager
+- Forward lookup Zones > náš servername > Properties
+- nastavit Type na Active Diretory (Change > zašktrnout Store the zone ... atd)
+- powershell zadat ipconfig /registerdns, net stop netlogon, net start netlogon
+- V DNS manager REFRESH
+- TED DO WINDOWS 11/10
+- Systém > Doména nebo pracovní skupina > změnit > je členem domény > napsat naší doménu
+- Zadat uživatelské jméno a heslo, které jsme si založili uživatele v organizational unit
+- restartovat nyní
+- přilhásit se > Others > zadat uživatelské jméno a heslo
+- Jelikož jsme si přidali nějaké práva např. zákaz přidavání tiskárny
+- vyzkoušíme jestli se nám podaří přidat tiskárnu
+- Pokud nejde --> správně
 - 
-
