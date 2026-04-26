@@ -19,6 +19,7 @@ Linux Mint
 - OS: Linux
 - Version: Ubuntu 64-bit
 - hardware settings stejně
+- Network settings DHCP automatic
 
 Windows 10/11
 - OS: Microsoft Windows
@@ -36,5 +37,8 @@ Windows 10/11
 DHCP Server
 - add roles DHCP Server
 - dokončit nastavení
+- nastavit Scope (rozsah)
+- nastavit reservations pro Linux a Windows (MAC adresy - jenom čisla a pismena)
+- Scope options přidat 003 Router (gateway IP) a 006 DNS Servers (Ip adresa školní)
 - 
 
