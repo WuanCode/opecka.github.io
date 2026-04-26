@@ -45,5 +45,19 @@ DHCP Server
 - nastavit Scope (rozsah)
 - nastavit reservations pro Linux a Windows (MAC adresy - jenom čisla a pismena)
 - Scope options přidat 003 Router (gateway IP) a 006 DNS Servers (Ip adresa školní)
+
+DNS Server
+- add roles DNS Server
+- DNS manager
+- configure DNS server
+- název domény např server22.com
+- nastavit IP adresu --> adresa windows serveru
+- do DHCP manager > Scope "název" > Scope options
+- přidat DNS adresu do "006 DNS Servers" (primární=adresa serveru, alternativní=školní/1.1.1.1)
+- vypnout a zapnout síť na linuxu a windows 11/10 a ověřit zda je všechno správně (např. prohlížeče)
+
+
+
+  
 - 
 
