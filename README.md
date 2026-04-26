@@ -87,4 +87,35 @@ ADDS
 - Jelikož jsme si přidali nějaké práva např. zákaz přidavání tiskárny
 - vyzkoušíme jestli se nám podaří přidat tiskárnu
 - Pokud nejde --> správně
+
+Web Server IIS
+- add roles Web Server IIS
+- přidat FTP server
+- IIS manager
+- vyzkoušet jestli funguje web server (locahost na serveru, windows11/10: "adresa serveru:80")
+- přidat FTP site
+- nastavit jméno a cestu složky
+- necháme All Unassigned a port 21
+- No SSL
+- Authentication > Basic
+- Authorization > All users
+- Permissions: READ, WRITE
+- REFRESH sites
+- na windows 11/10 WinSCP připojit se k ftp
+- vytvořit soubor pro test
+- na Linux Mint instalovat filezilla
+
+SSH server a klient
+Linux Mint
+- nainstalovat ssh
+- nainstalovat Remmina
+Windows 11/10
+- pokud se chceme z linuxu připojit k uživateli, který je přiřazen k doméně musíme přidat uživatel do vzdálené plochy
+- Windows Ikon > System > vzdálená plocha > uživatelé vzdálené plochy > přidat uživatele
+Windows Server 22
+- ověření ssh jestli funguje (přikazy si můzeme vygenerovat pomocí AI)
+- zkusíme si připojit WS22 --> L, L-->WS22, Win10 --> L, L --> Win10
+
+Web Server Windows Apache Xampp
+- instalace Xampp
 - 
