@@ -112,6 +112,7 @@ Linux Mint
 Windows 11/10
 - pokud se chceme z linuxu připojit k uživateli, který je přiřazen k doméně musíme přidat uživatel do vzdálené plochy
 - Windows Ikon > System > vzdálená plocha > uživatelé vzdálené plochy > přidat uživatele
+- zapnout ssh service na windowsu 11 (přikazy si můzeme vygenerovat pomocí AI)
 Windows Server 22
 - ověření ssh jestli funguje (přikazy si můzeme vygenerovat pomocí AI)
 - zkusíme si připojit WS22 --> L, L-->WS22, Win10 --> L, L --> Win10
