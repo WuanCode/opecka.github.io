@@ -30,7 +30,6 @@ Windows 10/11
 - version: Windows 10/11 x64
 - hardware settings stejně
 - Windows 11/10 Education
-- 
 
 # Windows Server 2022 (Settings)
 - Domain name změnit !! --> Restart now
@@ -134,7 +133,6 @@ VNC
 - L --> W
 - OTESTOVAT
   
-
 Web Server Windows Apache Xampp
 - instalace Xampp
 - DocumentRoot: C:/xampp/htdocs
@@ -173,5 +171,3 @@ Samba SMB
 - Linux --> Linux smb://adresa/název_sdileni
 - Linux --> Windows smb://adresa/název_sdileni (pokud je v doméně tak změnit při přihlášení)
 - Win --> Win \\adresa\\nazev_sdileni v průzkumníku
-- 
-- 
