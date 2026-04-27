@@ -117,6 +117,19 @@ Windows 11/10
 Windows Server 22
 - ověření ssh jestli funguje (přikazy si můzeme vygenerovat pomocí AI)
 - zkusíme si připojit WS22 --> L, L-->WS22, Win10 --> L, L --> Win10
+RDP
+- na linuxu Remmina nainstalovat
+- sudo apt update
+- sudo apt install remmina
+- W --> W
+- L --> W
+VNC
+- používat Remmina
+- na windows nainstalovat TightVnc a nakonfigurovat heslo (např. user)
+- L --> L
+- L --> W
+- OTESTOVAT
+  
 
 Web Server Windows Apache Xampp
 - instalace Xampp
@@ -139,4 +152,21 @@ Linux Mint Apache
 - test stránky
 - Windows --> Linux, přidat do C:/Windows/System32/drivers/etc/hosts adresu stroje a název stránky
 - Linux --> Windows, přidat do /etc/hosts (root) přidat adresu stroje a název stránky
+
+Samba SMB
+- sudo apt update
+- sudo apt install samba
+- sudo smbpasswd -a user
+- sudo mkdir -p /home/user/název
+- sudo chown user:user /home/user/název
+- sudo chmod 777 -R /home/user/název
+- sudo nano /etc/samba/smb.conf
+- přidat uplne nakonci [nazev_sdileni], path = /home/user/název, browseable = yes, read only = no, valid users = user, force user = user
+- sudo systemctl restart smbd
+- testparm
+- Win --> Linux (uzivatelské jméno = .\user, heslo)
+- Linux --> Linux smb://adresa/název_sdileni
+- Linux --> Windows smb://adresa/název_sdileni (pokud je v doméně tak změnit při přihlášení)
+- Win --> Win \\adresa\\nazev_sdileni v průzkumníku
+- 
 - 
