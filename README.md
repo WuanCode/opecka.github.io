@@ -23,6 +23,7 @@ Linux Mint
 - Version: Ubuntu 64-bit
 - hardware settings stejně
 - Network settings DHCP automatic
+- sudo apt install open-vm-tools-desktop
 
 Windows 10/11
 - OS: Microsoft Windows
@@ -119,4 +120,23 @@ Windows Server 22
 
 Web Server Windows Apache Xampp
 - instalace Xampp
+- DocumentRoot: C:/xampp/htdocs
+- přidavaní Virtual host: C:/xampp/apache/conf/extra/httpd-vhosts.conf
+- přidavání hostname: C:/Windows/System32/drivers/etc/hosts
+Linux Mint Apache
+- sudo apt install apache2
+- sudo systemctl enable apache2
+- sudo systemctl start apache2
+- sudo systemctl status apache2
+- přidavání webu /etc/apache2/sites-available/
+- zkopírovat 000-default.conf (přejmenovat a upravit podle svého)
+- DocumentRoot /var/www/html
+- ServerName "název"
+- ServerAdmin "webmaster@název"
+- /etc/hosts (jako root) přidat 127.0.0.1 + název
+- sudo a2ensite název.conf
+- sudo systemctl reload apache2
+- test stránky
+- Windows --> Linux, přidat do C:/Windows/System32/drivers/etc/hosts adresu stroje a název stránky
+- Linux --> Windows, přidat do /etc/hosts (root) přidat adresu stroje a název stránky
 - 
